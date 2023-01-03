@@ -17,6 +17,28 @@ img {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.go-back {
+  display: flex;
+  background-color: black;
+  color: white;
+  border: 2px solid  black;
+  border-radius: 15px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+.go-back-link {
+  margin: 0 auto;
+  scale: 1.2;
+}
+
+/* Task 1 */
+
 .start-btn,
 .stop-btn {
   display: flex;
@@ -30,3 +52,26 @@ img {
 .start-btn {
   margin-bottom: 15px;
 }
+
+/* Task 2 */
+
+.task-two {
+  background-color: plum;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.timer-input {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
