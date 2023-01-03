@@ -86,3 +86,34 @@ a {
   margin-bottom: 10px;
 }
 
+/* Task 3 */
+
+.task-three {
+  background-color: yellow;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input {
+  margin-top: 5px;
+}
+
+.create-promises {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  scale: 1.2;
+}
