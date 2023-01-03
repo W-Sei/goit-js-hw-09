@@ -75,3 +75,14 @@ a {
     gap: 10px;
 }
 
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  scale: 1.5;
+  margin-bottom: 10px;
+}
+
